@@ -21,7 +21,7 @@
     <div id="timer">Loading...</div>
 
     <script>
-        const targetDate = new Date('2024-01-01T00:00:00');
+        const targetDate = new Date('2024-01-31T00:00:00');
 
         const countdown = setInterval(() => {
             const currentDate = new Date().getTime();
@@ -36,7 +36,7 @@
 
             if (timeRemaining < 0) {
                 clearInterval(countdown);
-                document.getElementById('timer').innerHTML = "Happy New Year!";
+                document.getElementById('timer').innerHTML = "Happy retirement!";
             }
         }, 1000);
     </script>
